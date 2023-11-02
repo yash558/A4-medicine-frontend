@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.author::after{
+    @apply content-[''] w-full  rounded-xl rotate-12 h-full bg-gray-600;
+}
